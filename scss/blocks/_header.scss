@@ -1,0 +1,16 @@
+.header {
+    background: #222831;
+    padding: 14px;
+    color: #fff;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 30px;
+}
