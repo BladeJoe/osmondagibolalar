@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'Sessions';
+  src: url("fonts/Sessions.woff2") format("woff2"), url("fonts/Sessions.woff") format("woff"), url("fonts/Sessions.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Thin Design';
+  src: url("fonts/ThinDesign.woff2") format("woff2"), url("fonts/ThinDesign.woff") format("woff"), url("fonts/ThinDesign.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 html {
   scroll-behavior: smooth;
 }
