@@ -2,8 +2,12 @@
     padding: 14px;
     background-color: #222831;
     margin-bottom: 1px;
-    position: relative;
-
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    order: 899;
+    
     a {
         color: #fff;
     }
@@ -118,14 +122,15 @@
         color: #222831 !important;
     }
 
-    #menu-toggle:checked~.menu li { 
+    #menu-toggle:checked~.menu li {
         height: 5rem;
 
-        padding:{
+        padding {
             top: 35px;
             right: 74px;
             bottom: 5px;
-        };
+        }
+
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
 

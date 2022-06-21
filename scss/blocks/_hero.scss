@@ -9,7 +9,7 @@
     }
 
     &__left {
-        color: #fff; 
+        color: #fff;
 
         &__heading {
             font-weight: 200;
@@ -26,13 +26,29 @@
         &__wrapper {
             display: flex;
             flex-direction: column;
-            justify-content: space-between; 
+            justify-content: space-between;
             height: 200px;
-        } 
+
+            &__text {
+
+                font-size: 20px;
+                line-height: 24px;
+                text-align: right;
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
+            }
+
+            &__subtext {
+                font-size: 12px;
+                line-height: 14px;
+                text-align: right;
+                letter-spacing: 0.03em;
+                color: #72757C;
+            }
+        }
     }
 
 
-    &__right {}
 }
 
 .play-btn {

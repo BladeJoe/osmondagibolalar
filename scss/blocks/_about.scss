@@ -11,15 +11,59 @@
         position: relative;
         height: 350px;
         width: 50%;
+        color: #fff;
+        
+        &__heading{
+            padding: 14px 71px 17px 20px;
+            background-color: #FFD369;
+        }
+
+        &__wrapper {
+            position: absolute;
+
+            &__top__heading {
+                font-size: 74px;
+                line-height: 63px;
+            }
+
+            &__bottom__text {
+
+                font-size: 14px;
+                line-height: 16px;
+                color: #72757C;
+            }
+        }
+        &__wrapper1{ 
+            width:50%;
+            top: calc(50% - 10px);
+            left: 40px;
+            display: flex; 
+            
+            .youtube{
+                padding: 16px;
+                background: #000;
+            }
+        }
+        &__wrapper2{ 
+            top: 68px;
+            left: 410px;
+        }
+        &__wrapper3{ 
+            top: 200px;
+            left: 410px;
+        }
     }
 
-    .background {
-        z-index: -1;
+    .background1 { 
         position: absolute;
-
+        width: 620px; 
+        height: 350px;
+    }
+    .background2{
+        display: block;
     }
 
-    &__right { 
+    &__right {
         max-width: 635px;
         max-height: 350px;
     }
@@ -31,8 +75,20 @@
         line-height: 44px;
         text-transform: uppercase;
         color: #222831;
+        position: relative;
     }
-
+    &__heading::before {
+        content: "Biz Haqaimizda";
+        display: inline-block;
+        position: absolute;
+        font-size: 60px;
+        line-height: 63px; 
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: rgba(34, 40, 49, 0.05);
+        bottom: 0;
+        left: 0;
+    }
     &__content {
         font-size: 16px;
         line-height: 24px;
@@ -46,5 +102,5 @@
         color: #222831;
         margin-bottom: 10px;
     }
-    
+
 }
