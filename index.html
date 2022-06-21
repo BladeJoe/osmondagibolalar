@@ -1,56 +1,116 @@
 <!DOCTYPE html>
 <html lang='en'>
+
 <head>
-    <meta charset='UTF-8'>    
+    <meta charset='UTF-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1,maximum-scale=1" />
     <meta name='description' content=''>
     <link rel='stylesheet' href='css/main.css'>
     <title></title>
 </head>
+
 <body>
     <header class='header'>
         <div class='container'>
             <div class='header__container'>
                 <img src="./images/logo.svg" alt="logo">
 
-                <nav class="nav">
-                    <ul class='header-nav-list'>
-                        <li class='header-nav-list__item'><a href="">Biz haqimizda</a></li>
-                        <li class='header-nav-list__item'><a href="#">Jamoa</a></li> 
-                        <li class='header-nav-list__item'><a href="#">Ko`rsatuv sonlari</a></li> 
-                        <li class='header-nav-list__item'><a href="#">Merch</a></li> 
-                        <li class='header-nav-list__item'><a href="#">Hamkorlik</a></li> 
-                    </ul>
-                </nav>
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+                </label>
+                <ul class="menu">
+                    <li><a href="">Biz haqimizda</a></li>
+                    <li> <a href="#">Jamoa</a></li>
+                    <li> <a href="#">Ko`rsatuv sonlari</a></li>
+                    <li><a href="#">Merch</a></li>
+                    <li><a href="#">Hamkorlik</a></li>
+                </ul>
+
             </div>
         </div>
     </header>
 
     <main class='main'>
- 
+
         <section class='hero'>
             <div class='container'>
                 <div class='hero__container'>
                     <div class="hero__left">
-                        <h2 class='hero__left__heading'>Qasam ichaman, meni Amazon yoki Facebook’ka 50 000$ oylikka chaqirsa ham bormayman</h2>
-                        <img src="./images/play.svg" width="50" height="50" alt="play">
-                        <p class='hero__left__text'>Abdusattor Abdurahimov</p>
-                        <span>Tajribali admin, frilanser va IT biznesmen</span>
-                    </div> 
+                        <h2 class="hero__left__heading">Qasam ichaman, meni Amazon yoki Facebook’ka <span
+                                class="yellow">50 000$</span> oylikka
+                            chaqirsa ham bormayman</h2>
+
+
+                        <div class="hero__left__wrapper">
+                            <img class="play-btn" src="./images/play.svg" width="50" height="50" alt="">
+                            <div class="hero__left__inner-wrapper">
+                                <p class="hero__wrapper__text yellow">Abdusattor Abdurahimov</p>
+                            <p class="hero__wrapper__subtext">Tajribali admin, frilanser va IT biznesmen</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="hero__right">
+                        <img class="hero__right__img" src="./images/hero.png" alt="">
+                    </div>
                 </div>
             </div>
- 
+
         </section>
- 
+
+        <!--
+
+        <section class="about">
+            <div class="container">
+                <div class="about__container">
+                    <div class="about__left">
+                        <img class="background" height="350" src="./images/about.png" alt="">
+
+
+                        <div>
+                            <h2 class="__heading">Youtube kanalimiz</h2>
+                            <img src="./images/youtube.svg" alt="">
+                        </div>
+                        <div>
+                            <h2 class="__heading">50+</h2>
+                            <p class="__text">qiziqarli suhbat</p>
+
+                        </div>
+
+                        <div>
+                            <h2 class="__heading">65k+</h2>
+                            <p class="__text">obunachilar</p>
+                        </div>
+                    </div>
+
+                    <div class="about__right">
+
+                        <h2 class="about__heading">Biz haqimizda</h2>
+
+                        <p class="about__text">Osmondagi bolalar — hayotning past-balandiga qaramasdan o`z g`ayrati
+                            bilan yuqori marralarni zabt eta olgan, yoshlar uchun motivatsiya rolini bajarayotgan
+                            insonlarni samimiy suhbat orqali o`zida jam qilgan yangi interaktiv ko`rsatuv.</p>
+                        <p class="about__content">
+                            Osmondagi bolalar ko`rsatuvining aktual missiyasi katta natijalarni qo`lga kiritgan
+                            yoshlarni ommaga tanitish va ularni bu yo`ldagi xato, qiyinchiliklar, to`plangan
+                            tajribalarini jamiyat bilan bo`lishishdan iborat
+                        </p>.
+                        <a class="button" href="#">Batafsil</a>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+
     </main>
- 
+
     <footer class='footer'>
         <div class='container'>
             <div class='footer__container'>
- 
+
             </div>
         </div>
     </footer>
 </body>
- 
+
 </html>

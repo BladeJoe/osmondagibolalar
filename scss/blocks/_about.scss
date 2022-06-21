@@ -1,0 +1,50 @@
+.about {
+
+    margin-top: 89px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left {
+        position: relative;
+        height: 350px;
+        width: 50%;
+    }
+
+    .background {
+        z-index: -1;
+        position: absolute;
+
+    }
+
+    &__right { 
+        max-width: 635px;
+        max-height: 350px;
+    }
+
+    &__heading {
+        margin-bottom: 10px;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 44px;
+        text-transform: uppercase;
+        color: #222831;
+    }
+
+    &__content {
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.5);
+        margin-bottom: 51px;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 27px;
+        color: #222831;
+        margin-bottom: 10px;
+    }
+    
+}

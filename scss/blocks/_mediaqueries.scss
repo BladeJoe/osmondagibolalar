@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1000px) {
+    .hero {
+        &__container {
+            padding-top: 97px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        &__left {
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction: column;
+
+            &__heading {
+                text-align: center;
+
+            }
+
+
+
+            &__wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                height: auto;
+                width: 100%;
+            }
+
+            &__inner-wrapper{
+                order: -1; 
+            }
+        }
+
+
+        &__right {
+            order: -1;
+        }
+    }
+
+    .play-btn {}
+
+    .yellow {
+        color: #FFD369;
+    }
+}
